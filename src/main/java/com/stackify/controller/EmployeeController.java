@@ -12,7 +12,7 @@ import org.springframework.http.HttpStatus;
 import com.stackify.model.Employee;
 import com.stackify.repository.EmployeeRepository;
 
-@RestController
+@RestController("/mycontroller")
 public class EmployeeController {
 
     private EmployeeRepository employeeRepository;
